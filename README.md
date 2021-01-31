@@ -26,9 +26,13 @@ pip install gspread
 
 
 
+
+
 ============= CODE CONFIGURATION =============
 
 Add necessary paths to code
+
+
 
 
 
