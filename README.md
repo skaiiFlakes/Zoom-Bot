@@ -1,21 +1,36 @@
-==================== SETUP ====================\n
-Install Python\n
-Install Chromedriver\n
+==================== SETUP ====================
 
-Install Google Drive API\n
-Install Google Sheets API\n
-Download Google API json credentials\n
+Install Python
 
-Share client email(found in creds.json)\n
-to google sheets file\n
+Install Chromedriver
 
-pip install selenium\n
-pip install pyautogui\n
-pip install gspread\n
 
-============= CODE CONFIGURATION =============\n
-Add necessary paths to code\n
+Install Google Drive API
 
-============== RUNNING THE CODE ==============\n
-Run zoomBot.py in terminal/cmd to avoid lag\n
-Computer and terminal/cmd must be left open\n
+Install Google Sheets API
+
+Download Google API json credentials
+
+
+Share client email(found in creds.json)
+
+to google sheets file
+
+
+pip install selenium
+
+pip install pyautogui
+
+pip install gspread
+
+
+============= CODE CONFIGURATION =============
+
+Add necessary paths to code
+
+
+============== RUNNING THE CODE ==============
+
+Run zoomBot.py in terminal/cmd to avoid lag
+
+Computer and terminal/cmd must be left open
