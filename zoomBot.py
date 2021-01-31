@@ -7,20 +7,19 @@ from selenium import webdriver
 import pyautogui as pyg
 
 os.system('cls')
-file = open(r'C:\Users\ica\Coding Projects\Python\zoomBot\log.txt', "a+")
-testlink = "https://zoom.us/j/5826131212?pwd=N1NKSU90bDdKby9LQ1FMbkpTUFp0Zz09"
+file = open(r'path to log.txt', "a+") # create a log text file and add path
 
 gc = gspread.service_account(
-    filename=r'C:\Users\ica\Coding Projects\Python\zoomBot\creds.json')
-sh = gc.open_by_key('1WA5qHhe-pUtsYrjXgY0jBYKVizzGY8t18A23tOrAP7s')
+    filename=r'path to creds.json') # download google sheets api json credentials and add path
+sh = gc.open_by_key('key') # get key from google sheets url
 ws = sh.sheet1
 
 
 def open_link(link):
-    driver = webdriver.Chrome(executable_path="C:\\SeleniumDrivers\\chromedriver.exe")
+    driver = webdriver.Chrome(executable_path="path to chromedriver.exe") # add path to chromedriver
     driver.get(link)
     time.sleep(1)
-    button_coords = pyg.locateOnScreen(r'C:\Users\ica\Coding Projects\Python\zoomBot\open_meetings_button.png')
+    button_coords = pyg.locateOnScreen(r'oopen_meetings_button.png')
     position = pyg.position()
     pyg.click(button_coords)
     pyg.moveTo(position)
@@ -104,5 +103,4 @@ while loop == True:
 
     time.sleep(50)
 
-# open_test_meeting(testlink)
 end_program()
