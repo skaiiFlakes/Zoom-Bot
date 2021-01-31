@@ -24,9 +24,13 @@ pip install pyautogui
 pip install gspread
 
 
+
+
 ============= CODE CONFIGURATION =============
 
 Add necessary paths to code
+
+
 
 
 ============== RUNNING THE CODE ==============
