@@ -1,7 +1,5 @@
 =================== SETUP ===================
 
-Install Python
-
 Install Chromedriver
 
 Install Google Drive API
