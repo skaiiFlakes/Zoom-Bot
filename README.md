@@ -1,4 +1,8 @@
-=================== SETUP ===================
+#Zoom Bot
+
+
+
+##Setup
 
 Install Chromedriver
 
@@ -18,11 +22,15 @@ pip install pyautogui
 
 pip install gspread
 
-============= CODE CONFIGURATION =============
+
+
+##Code Configuration
 
 Add necessary paths to code
 
-============== RUNNING THE CODE ==============
+
+
+##Running The Code
 
 Run zoomBot.py in terminal/cmd to avoid lag
 
